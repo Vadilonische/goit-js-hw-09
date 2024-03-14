@@ -64,40 +64,6 @@ const images = [
   },
 ];
 
-// import SimpleLightbox from 'simplelightbox';
-// import 'simplelightbox/dist/simple-lightbox.min.css';
-
-// const gallery = document.querySelector('.gallery');
-// const elements = [];
-
-// images.forEach(image => {
-//   const li = document.createElement('li');
-//   li.classList.add('gallery-item');
-
-//   const a = document.createElement('a');
-//   a.classList.add('gallery-link');
-//   a.setAttribute('href', image.original);
-
-//   const img = document.createElement('img');
-//   img.classList.add('gallery-image');
-//   img.setAttribute('src', image.preview);
-//   img.setAttribute('alt', image.description);
-
-//   a.appendChild(img);
-//   li.appendChild(a);
-
-//   elements.push(li);
-//   a.addEventListener('click', function (event) {
-//     event.preventDefault();
-//   });
-//   const lightbox = new SimpleLightbox('.gallery-link a', {
-//     captionsData: 'alt',
-//     captionDelay: 250,
-//   });
-// });
-
-// gallery.append(...elements);
-
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
