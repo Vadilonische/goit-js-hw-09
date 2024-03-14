@@ -36,8 +36,8 @@ function submitFormData(event) {
     alert('Please write your email and message in the input field');
     return;
   }
+  console.log({ email: emailValue, message: messageValue });
+
   localStorage.removeItem('feedback-form-state');
   feedbackForm.reset();
-
-  console.log(formData);
 }
